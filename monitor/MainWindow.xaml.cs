@@ -54,26 +54,7 @@ namespace monitor
                 szoftverllista.Add(new Software(item));
             }
             DataGridSoftware.ItemsSource = szoftverllista;
-            /*
           
-            Console.Write("GPUs:");
-            GetComponent("Win32_VideoController", "Name");
-            Console.Write("BIOS Brand: ");
-            GetComponent("Win32_BIOS", "Manufacturer");
-            Console.Write("BIOS version: ");
-            GetComponent("Win32_BIOS", "Name");
-            Console.Write("Audio:");
-            GetComponent("Win32_SoundDevice", "ProductName");
-            Console.Write("Optical Drives:");
-            GetComponent("Win32_CDROMDrive", "Name");
-            Console.Write("Device Name:");
-            GetComponent("Win32_ComputerSystem", "Name");
-            Console.Write("HDD:");
-            GetComponent("Win32_DiskDrive", "Model");
-            Console.Write("Network:");
-            GetComponent("Win32_NetworkAdapter", "Name");
-            Console.Read();*/
-
         }
         private void CPU()
         {
