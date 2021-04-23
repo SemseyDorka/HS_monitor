@@ -1,0 +1,15 @@
+C:\Users\semse\source\repos\monitor\monitor\bin\Debug\monitor.exe.config
+C:\Users\semse\source\repos\monitor\monitor\bin\Debug\monitor.exe
+C:\Users\semse\source\repos\monitor\monitor\bin\Debug\monitor.pdb
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor.csprojAssemblyReference.cache
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\MainWindow.g.cs
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\App.g.cs
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor_MarkupCompile.cache
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor_MarkupCompile.lref
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\MainWindow.baml
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor.g.resources
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor.Properties.Resources.resources
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor.csproj.GenerateResource.cache
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor.csproj.CoreCompileInputs.cache
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor.exe
+C:\Users\semse\source\repos\monitor\monitor\obj\Debug\monitor.pdb

@@ -1,0 +1,25 @@
+﻿<Window x:Class="monitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:monitor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="DataGridSoftware" HorizontalAlignment="Left" Height="331" Margin="37,42,0,0" VerticalAlignment="Top" Width="710" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Szoftver név" Width="*" Binding="{Binding SoftwareNev}" />
+                <DataGridTextColumn Header="Telepített verzió" Width="*" Binding="{Binding Verzio}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="Button_software" Content="Szoftver" HorizontalAlignment="Left" Height="27" Margin="36,16,0,0" VerticalAlignment="Top" Width="143" Click="Button_software_Click"/>
+        <Button x:Name="Button_hardware" Content="Rendszerinformáció" HorizontalAlignment="Left" Height="27" Margin="179,16,0,0" VerticalAlignment="Top" Width="143" Click="Button_hardware_Click"/>
+        <ListBox x:Name="ListHardtware" HorizontalAlignment="Left" Height="331" Margin="37,42,0,0" VerticalAlignment="Top" Width="576" Visibility="Hidden"/>
+        <Button x:Name="mentes" Content="Adatok mentése" HorizontalAlignment="Left" Height="27" Margin="633,16,0,0" VerticalAlignment="Top" Width="114" Click="mentes_Click"/>
+
+
+
+    </Grid>
+</Window>
